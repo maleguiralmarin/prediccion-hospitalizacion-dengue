@@ -1,0 +1,6 @@
+﻿Variable,Rango esperado,Mín. observado,Máx. observado,Fuera de rango,Sin dato (-89/vacío),% incumple
+dias_sintomas,0 a 30,0.0,341.0,73,0,0.26
+estrato_,1 a 6,-89.0,6.0,5864,615,22.63
+mes (inicio síntomas),1 a 12,1.0,12.0,0,0,0.0
+año,2015 a 2025,2015.0,2025.0,0,0,0.0
+semana,1 a 53,1.0,53.0,0,0,0.0

@@ -1,0 +1,10 @@
+# Documentación, material del curso y archivos de trabajo (no se publican)
+doc/
+
+# Entorno virtual y cachés
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+models/
+~$*

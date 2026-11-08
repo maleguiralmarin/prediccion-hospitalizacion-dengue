@@ -1,0 +1,5 @@
+﻿Técnica,F1-macro,Recall (Hospitalizado),Precision (Hospitalizado)
+Sin balanceo,0.8081,0.6668,0.8
+class_weight='balanced',0.8197,0.8517,0.6961
+SMOTE (sobremuestreo sintético),0.8175,0.8512,0.6924
+RandomUnderSampler (submuestreo),0.8186,0.8582,0.6914

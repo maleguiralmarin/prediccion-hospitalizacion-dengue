@@ -1,0 +1,127 @@
+{
+  "modelo": "Boosting (XGBoost)",
+  "hiperparametros": {
+    "subsample": "0.85",
+    "n_estimators": "200",
+    "max_depth": "8",
+    "learning_rate": "0.03",
+    "colsample_bytree": "0.8"
+  },
+  "features": [
+    "edad_aprox",
+    "dias_sintomas",
+    "estrato",
+    "mes",
+    "fiebre",
+    "cefalea",
+    "dolrretroo",
+    "malgias",
+    "artralgia",
+    "erupcionr",
+    "dolor_abdo",
+    "vomito",
+    "diarrea",
+    "somnolenci",
+    "hipotensio",
+    "hepatomeg",
+    "hem_mucosa",
+    "hipotermia",
+    "aum_hemato",
+    "caida_plaq",
+    "acum_liqui",
+    "desplazami",
+    "famantdngu",
+    "gp_gestan",
+    "gp_migrant",
+    "sexo",
+    "regimen"
+  ],
+  "num_features": [
+    "edad_aprox",
+    "dias_sintomas",
+    "estrato",
+    "mes"
+  ],
+  "bin_features": [
+    "fiebre",
+    "cefalea",
+    "dolrretroo",
+    "malgias",
+    "artralgia",
+    "erupcionr",
+    "dolor_abdo",
+    "vomito",
+    "diarrea",
+    "somnolenci",
+    "hipotensio",
+    "hepatomeg",
+    "hem_mucosa",
+    "hipotermia",
+    "aum_hemato",
+    "caida_plaq",
+    "acum_liqui",
+    "desplazami",
+    "famantdngu",
+    "gp_gestan",
+    "gp_migrant"
+  ],
+  "cat_features": [
+    "sexo",
+    "regimen"
+  ],
+  "edad_grupos": {
+    "MENOR DE 1": 0.5,
+    "1 A 4": 2.5,
+    "5 A 9": 7,
+    "10 A 14": 12,
+    "15 A 19": 17,
+    "20 A 29": 24.5,
+    "30 A 39": 34.5,
+    "40 A 49": 44.5,
+    "50 A 59": 54.5,
+    "60 A 69": 64.5,
+    "70 Y MAS": 75
+  },
+  "regimen": {
+    "C": "Contributivo",
+    "S": "Subsidiado",
+    "P": "Excepción",
+    "E": "Especial",
+    "N": "No asegurado",
+    "I": "Indeterminado"
+  },
+  "reglas": {
+    "dias_sintomas": [
+      0,
+      30
+    ],
+    "estrato": [
+      1,
+      6
+    ],
+    "mes": [
+      1,
+      12
+    ]
+  },
+  "metricas_test": {
+    "Accuracy": 0.8638,
+    "Precision": 0.8399,
+    "Recall": 0.8517,
+    "F1": 0.8452,
+    "Recall Hosp.": 0.8189,
+    "ROC-AUC": 0.9319
+  },
+  "versiones": {
+    "python": "3.12.10",
+    "scikit-learn": "1.9.1",
+    "imbalanced-learn": "0.14.2",
+    "xgboost": "3.4.1",
+    "pandas": "2.3.3",
+    "numpy": "2.3.5",
+    "joblib": "1.6.0"
+  },
+  "dataset": "https://www.datos.gov.co/d/qzc7-jbg3",
+  "n_train": 20031,
+  "n_test": 8585
+}

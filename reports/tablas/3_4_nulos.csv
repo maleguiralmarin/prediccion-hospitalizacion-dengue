@@ -1,0 +1,20 @@
+﻿Variable,% Nulos (total),% Nulos (entrenamiento),Método aplicado
+estrato,22.64,22.5,KNNImputer (k=5) dentro del pipeline
+famantdngu,19.35,19.21,SimpleImputer (moda) dentro del pipeline
+gp_gestan,2.02,2.06,SimpleImputer (moda) dentro del pipeline
+dias_sintomas,0.26,0.28,KNNImputer (k=5) dentro del pipeline
+desplazami,0.03,0.03,SimpleImputer (moda) dentro del pipeline
+cefalea,0.01,0.01,SimpleImputer (moda) dentro del pipeline
+dolrretroo,0.01,0.01,SimpleImputer (moda) dentro del pipeline
+diarrea,0.01,0.01,SimpleImputer (moda) dentro del pipeline
+erupcionr,0.01,0.01,SimpleImputer (moda) dentro del pipeline
+dolor_abdo,0.01,0.01,SimpleImputer (moda) dentro del pipeline
+vomito,0.01,0.01,SimpleImputer (moda) dentro del pipeline
+hepatomeg,0.01,0.01,SimpleImputer (moda) dentro del pipeline
+hipotensio,0.01,0.01,SimpleImputer (moda) dentro del pipeline
+somnolenci,0.01,0.01,SimpleImputer (moda) dentro del pipeline
+hem_mucosa,0.01,0.01,SimpleImputer (moda) dentro del pipeline
+caida_plaq,0.01,0.01,SimpleImputer (moda) dentro del pipeline
+aum_hemato,0.01,0.01,SimpleImputer (moda) dentro del pipeline
+hipotermia,0.01,0.01,SimpleImputer (moda) dentro del pipeline
+acum_liqui,0.01,0.01,SimpleImputer (moda) dentro del pipeline

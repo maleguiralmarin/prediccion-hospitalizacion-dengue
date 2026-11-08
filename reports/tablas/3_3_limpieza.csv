@@ -1,0 +1,8 @@
+﻿Tipo de error,Acción realizada,Registros afectados
+Categorías inconsistentes (mayúsculas/minúsculas) en grupo_etario,Normalización a mayúsculas y conversión a edad_aprox (punto medio del grupo),18463
+Formatos de fecha mixtos (ISO y dd/mm/aaaa),Parseo con ambos formatos,116
+"dias_sintomas fuera de la regla [0, 30]",Se convierte en NaN (se imputa luego),73
+Centinela -89 o vacío en estrato_,Se convierte en NaN,6478
+"Binarias con -89, 3 (desconocido) o 4 (fuera de dominio)","Recodificación: 1 se mantiene como 1, 2 pasa a 0 y los valores inválidos pasan a NaN",6155
+"tip_ss_ mezcla códigos y nombres, con error de codificación (la palabra EXCEPCIÓN aparece con caracteres dañados)",Mapeo a códigos oficiales C/S/P/E/N/I,10153
+Registros duplicados exactos (todas las columnas excepto el consecutivo 'orden'),Se eliminan (misma notificación registrada dos veces),10

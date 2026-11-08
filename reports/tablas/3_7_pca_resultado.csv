@@ -1,0 +1,3 @@
+﻿Configuración,F1-macro CV (media),F1-macro CV (desv. est.)
+Sin PCA (33 variables),0.8175,0.0031
+Con PCA 95 % (15 componentes),0.8183,0.0015

@@ -1,0 +1,5 @@
+﻿Modelo,Tipo,CV Mean (F1-macro),CV Std,F1 entrenamiento,Recall Hosp.,ROC-AUC,Tiempo (s),Mejora vs mejor clásico (pts F1),Mejora (%)
+Boosting (XGBoost),Boosting,0.8435,0.0062,0.8943,0.783,0.9259,18.7248,0.0009,0.1016
+Random Forest,Bagging,0.8385,0.0042,0.9874,0.8084,0.9161,25.8136,-0.0041,-0.484
+Votación (suave),Votación,0.8369,0.0033,0.8453,0.8813,0.9217,140.2118,-0.0057,-0.6771
+Bagging (árboles),Bagging,0.8328,0.0051,0.9873,0.7841,0.911,27.7022,-0.0098,-1.1577

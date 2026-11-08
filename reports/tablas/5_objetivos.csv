@@ -1,0 +1,4 @@
+﻿Objetivo (Fase 1),Resultado,Estado
+F1-macro en prueba mayor o igual a 0.85,0.8452,No cumple
+Recall Hospitalizado mayor o igual a 0.80,0.8189,Cumple
+Al menos 5 clásicos y 3 ensambles comparados con CV,5 + 4,Cumple

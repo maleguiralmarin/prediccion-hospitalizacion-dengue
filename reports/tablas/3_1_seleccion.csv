@@ -1,0 +1,28 @@
+﻿Variable seleccionada,Justificación
+edad_aprox,Derivada de grupo_etario. Niños y adultos mayores tienen más riesgo de complicación
+dias_sintomas,Derivada (consulta - inicio). La fase crítica del dengue ocurre entre los días 3 y 7
+estrato,"Proxy socioeconómico (acceso a servicios, condiciones de vivienda)"
+mes,Derivada de ini_sin_. Captura la estacionalidad de los brotes
+fiebre,Síntoma de dengue sin signos de alarma (guía clínica)
+cefalea,Síntoma de dengue sin signos de alarma (guía clínica)
+dolrretroo,Síntoma de dengue sin signos de alarma (guía clínica)
+malgias,Síntoma de dengue sin signos de alarma (guía clínica)
+artralgia,Síntoma de dengue sin signos de alarma (guía clínica)
+erupcionr,Síntoma de dengue sin signos de alarma (guía clínica)
+dolor_abdo,Signo de alarma de dengue: criterio clínico de hospitalización
+vomito,Signo de alarma de dengue: criterio clínico de hospitalización
+diarrea,Signo de alarma de dengue: criterio clínico de hospitalización
+somnolenci,Signo de alarma de dengue: criterio clínico de hospitalización
+hipotensio,Signo de alarma de dengue: criterio clínico de hospitalización
+hepatomeg,Signo de alarma de dengue: criterio clínico de hospitalización
+hem_mucosa,Signo de alarma de dengue: criterio clínico de hospitalización
+hipotermia,Signo de alarma de dengue: criterio clínico de hospitalización
+aum_hemato,Signo de alarma de dengue: criterio clínico de hospitalización
+caida_plaq,Signo de alarma de dengue: criterio clínico de hospitalización
+acum_liqui,Signo de alarma de dengue: criterio clínico de hospitalización
+desplazami,Desplazamiento reciente (exposición)
+famantdngu,Nexo epidemiológico familiar
+gp_gestan,Gestantes: grupo de riesgo según guía clínica
+gp_migrant,Migrantes: posible barrera de acceso
+sexo,Variable demográfica básica
+regimen,Régimen de afiliación (tip_ss_ normalizado)

@@ -1,0 +1,3 @@
+﻿Comparación,Diferencia F1 CV 5x2,t corregido,p-valor prueba t,"McNemar (b, c)",Chi cuadrado McNemar,p-valor McNemar
+Boosting (XGBoost) vs Random Forest,0.0013,0.697,0.5034,"(198, 131)",13.24,0.0003
+Boosting (XGBoost) vs Bagging (árboles),0.0022,2.43,0.038,"(170, 121)",7.918,0.0049

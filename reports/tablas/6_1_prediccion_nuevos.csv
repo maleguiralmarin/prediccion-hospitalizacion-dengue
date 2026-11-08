@@ -1,0 +1,7 @@
+﻿Registro de prueba,Predicción,Probabilidad hospitalización,Interpretación
+"Adulto joven, 2 días, solo síntomas leves (fiebre, cefalea, mialgias)",No hospitalizado,0.04,Riesgo BAJO: manejo ambulatorio y signos de alarma al paciente
+"Niño de 5 a 9 años, 5 días, dolor abdominal + vómito + caída de plaquetas",Hospitalizado,0.988,Riesgo ALTO: priorizar valoración para hospitalización
+"Adulto mayor (70+), 4 días, caída de plaquetas + aumento de hematocrito + somnolencia",Hospitalizado,0.961,Riesgo ALTO: priorizar valoración para hospitalización
+"Gestante 30 a 39 años, 3 días, fiebre + cefalea + dolor abdominal",Hospitalizado,0.805,Riesgo ALTO: priorizar valoración para hospitalización
+"Adolescente, 1 día, fiebre + artralgia + erupción",No hospitalizado,0.048,Riesgo BAJO: manejo ambulatorio y signos de alarma al paciente
+"Adulto 40 a 49, días y estrato DESCONOCIDOS, sangrado de mucosas + plaquetas + vómito",Hospitalizado,0.736,Riesgo ALTO: priorizar valoración para hospitalización

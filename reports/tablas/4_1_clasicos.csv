@@ -1,0 +1,6 @@
+﻿Modelo,Hiperparámetros iniciales,Métrica,CV Mean (F1-macro),CV Std,F1 entrenamiento,Recall Hosp.,ROC-AUC,Tiempo (s)
+Red Neuronal (MLP),"hidden_layer_sizes=(100,), activation='relu', alpha=0.0001, early_stopping=True",F1-macro,0.8426,0.0044,0.8508,0.8776,0.9246,19.3654
+SVM,"kernel='rbf', C=1.0, gamma='scale'",F1-macro,0.8314,0.0039,0.842,0.8851,0.9102,63.3479
+Regresión Logística,"C=1.0, penalty='l2', solver='lbfgs'",F1-macro,0.8175,0.0031,0.8185,0.8512,0.9077,22.7619
+Árbol de Decisión,"max_depth=None, min_samples_leaf=1, criterion='gini'",F1-macro,0.7789,0.0062,0.9873,0.6979,0.7836,16.4827
+KNN,"n_neighbors=5, weights='uniform', p=2",F1-macro,0.773,0.004,0.871,0.7085,0.8462,19.7338

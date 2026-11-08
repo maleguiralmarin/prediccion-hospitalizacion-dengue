@@ -1,0 +1,10 @@
+{
+  "integrantes": "Marleny Guiral Marin (trabajo individual)",
+  "colab": "[PEGAR ENLACE PÚBLICO DE GOOGLE COLAB]",
+  "github": "[PEGAR URL DEL REPOSITORIO GITHUB]",
+  "streamlit": "[PEGAR URL PÚBLICA DE STREAMLIT.IO]",
+  "app_funcional": "Sí: probada localmente (streamlit run app.py) [confirmar tras el despliegue]",
+  "url_activa": "[Sí: confirmar tras el despliegue]",
+  "pantallazo_txt": "[Sí: ver figura 9]",
+  "pantallazo": "doc/entrega/pantallazo_app.png"
+}

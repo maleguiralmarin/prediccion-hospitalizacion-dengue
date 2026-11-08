@@ -1,0 +1,4 @@
+﻿Modelo,F1 prueba,IC 95 % inferior,IC 95 % superior,F1 CV 5x2 (media +/- desv. est.)
+Boosting (XGBoost),0.8452,0.837,0.8536,0.8444 +/- 0.0018
+Random Forest,0.8405,0.8322,0.8484,0.8431 +/- 0.0016
+Bagging (árboles),0.842,0.8338,0.8502,0.8422 +/- 0.0020

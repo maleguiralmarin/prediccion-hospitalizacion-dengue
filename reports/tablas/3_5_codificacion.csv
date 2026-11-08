@@ -1,0 +1,8 @@
+﻿Variable,Método de codificación,Justificación
+sexo,OneHotEncoder(handle_unknown='ignore'),Nominal sin orden
+regimen,OneHotEncoder(handle_unknown='ignore'),Nominal sin orden (6 categorías)
+17 síntomas/signos + 4 binarias,Codificación binaria 1/0 (1 = Sí; el 2 original pasa a 0 = No),Dicotómicas: un solo indicador basta
+grupo_etario (convertida en edad_aprox),Codificación ordinal numérica (punto medio del rango),Conserva el orden y la magnitud de la edad
+estrato,Ordinal numérica (1 a 6),El estrato tiene orden natural
+"Numéricas (edad_aprox, dias_sintomas, estrato, mes)",StandardScaler,"LR, SVM, KNN y MLP son sensibles a la escala"
+hospitalizado (target),"Codificación de etiquetas 1 = Hospitalizado, 0 = No",La clase positiva es la de interés clínico

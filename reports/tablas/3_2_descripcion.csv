@@ -1,0 +1,8 @@
+﻿Métrica,Resultado
+Número de registros,28626
+Número de variables (dataset original),76
+Número de variables de entrada seleccionadas,27
+Variables numéricas,4
+Variables categóricas (21 binarias + 2 nominales),23
+Variable objetivo,"1 (pac_hos_, renombrada como hospitalizado)"
+Registros duplicados exactos en la fuente,10

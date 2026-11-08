@@ -1,0 +1,7 @@
+﻿edad_aprox,dias_sintomas,estrato,mes,fiebre,cefalea,dolrretroo,malgias,artralgia,erupcionr,dolor_abdo,vomito,diarrea,somnolenci,hipotensio,hepatomeg,hem_mucosa,hipotermia,aum_hemato,caida_plaq,acum_liqui,desplazami,famantdngu,gp_gestan,gp_migrant,sexo,regimen,Real,Predicho,Prob. hosp.
+54.5,3.0,3.0,7,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,F,C,No hospitalizado,No hospitalizado,0.049
+75.0,4.0,4.0,6,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,F,C,Hospitalizado,Hospitalizado,0.853
+34.5,3.0,,5,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,M,C,No hospitalizado,No hospitalizado,0.023
+24.5,3.0,,2,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,M,C,Hospitalizado,Hospitalizado,0.86
+7.0,0.0,1.0,7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,M,S,No hospitalizado,Hospitalizado,0.728
+7.0,0.0,,4,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,M,C,No hospitalizado,No hospitalizado,0.046
