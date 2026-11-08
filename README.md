@@ -9,7 +9,7 @@ Proyecto de analítica predictiva (clasificación binaria) desarrollado con la m
 | **Dataset** | [Dengue, dengue grave y mortalidad por dengue: Bucaramanga (datos.gov.co, `qzc7-jbg3`)](https://www.datos.gov.co/d/qzc7-jbg3), 28.626 registros x 76 variables (2015 a 2025) |
 | **Variable objetivo** | `pac_hos_`: hospitalizado (31,6 %) / no hospitalizado (68,4 %) |
 | **Métrica principal** | F1-score macro |
-| **App en Streamlit** | `<URL pública de Streamlit.io>` |
+| **App en Streamlit** | <https://riesgo-dengue.streamlit.app/> |
 | **Notebook en Colab** | `<enlace público de Google Colab>` |
 
 ## Estructura del repositorio
