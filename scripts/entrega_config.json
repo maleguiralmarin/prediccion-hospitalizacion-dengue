@@ -1,10 +1,14 @@
 {
   "integrantes": "Marleny Guiral Marin (trabajo individual)",
-  "colab": "[PEGAR ENLACE PÚBLICO DE GOOGLE COLAB]",
+  "colab": "https://colab.research.google.com/drive/1d7KGjuu4ZpwycQMizYW80ZcNIGHBnYox?usp=sharing",
   "github": "https://github.com/maleguiralmarin/prediccion-hospitalizacion-dengue",
   "streamlit": "https://riesgo-dengue.streamlit.app/",
   "app_funcional": "Sí: probada localmente y desplegada en Streamlit Community Cloud",
   "url_activa": "Sí",
-  "pantallazo_txt": "[Sí: ver figura 9]",
-  "pantallazo": "doc/entrega/pantallazo_app.png"
+  "pantallazo_txt": "Sí: ver figuras 9, 10 y 11",
+  "pantallazos": [
+    {"ruta": "doc/entrega/pantallazo_app1.png", "pie": "Aplicación desplegada en Streamlit.io: datos del paciente y evolución."},
+    {"ruta": "doc/entrega/pantallazo_app2.png", "pie": "Aplicación desplegada en Streamlit.io: síntomas y signos de alarma."},
+    {"ruta": "doc/entrega/pantallazo_app3.png", "pie": "Aplicación desplegada en Streamlit.io: contexto y resultado de la predicción (probable hospitalización, 84,2 %)."}
+  ]
 }

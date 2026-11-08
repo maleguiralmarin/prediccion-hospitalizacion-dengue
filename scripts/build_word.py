@@ -453,10 +453,12 @@ tabla_kv([
     ("URL pública activa", CFG["url_activa"]),
     ("Pantallazo adjunto", CFG["pantallazo_txt"]),
 ], 5, 11.5)
-if CFG.get("pantallazo") and (ROOT / CFG["pantallazo"]).exists():
-    doc.add_picture(str(ROOT / CFG["pantallazo"]), width=Cm(15))
+pantallazos = CFG.get("pantallazos") or ([{"ruta": CFG["pantallazo"], "pie": "Aplicación desplegada en Streamlit.io."}]
+                                         if CFG.get("pantallazo") else [])
+for n, img in enumerate([i for i in pantallazos if (ROOT / i["ruta"]).exists()], start=9):
+    doc.add_picture(str(ROOT / img["ruta"]), width=Cm(13))
     doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
-    p("Figura 9. Aplicación desplegada en Streamlit.io.", italic=True, size=8.5, align=WD_ALIGN_PARAGRAPH.CENTER)
+    p(f"Figura {n}. {img['pie']}", italic=True, size=8.5, align=WD_ALIGN_PARAGRAPH.CENTER)
 
 doc.add_heading("Conclusiones", 1)
 viñetas(TXT["conclusiones"])
