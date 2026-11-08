@@ -10,7 +10,7 @@ Proyecto de analítica predictiva (clasificación binaria) desarrollado con la m
 | **Variable objetivo** | `pac_hos_`: hospitalizado (31,6 %) / no hospitalizado (68,4 %) |
 | **Métrica principal** | F1-score macro |
 | **App en Streamlit** | <https://riesgo-dengue.streamlit.app/> |
-| **Notebook en Colab** | `<enlace público de Google Colab>` |
+| **Notebook en Colab** | <https://colab.research.google.com/drive/1d7KGjuu4ZpwycQMizYW80ZcNIGHBnYox?usp=sharing> |
 
 ## Estructura del repositorio
 
