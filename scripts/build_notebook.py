@@ -63,8 +63,14 @@ code(r"""
 import sys, os
 IN_COLAB = "google.colab" in sys.modules
 if IN_COLAB:
-    %pip install -q scikit-learn==1.9.1 imbalanced-learn==0.14.2 xgboost==3.4.1 ydata-profiling==4.18.4 "setuptools<81"
-    # Colab: se clona el repositorio para tener la misma estructura de carpetas (opcional)
+    # Mismas versiones del entrenamiento. NumPy se fija en 2.3.5 porque Colab trae NumPy 2.4,
+    # que no es compatible con numba (dependencia de ydata-profiling).
+    %pip install -q numpy==2.3.5 pandas==2.3.3 scikit-learn==1.9.1 imbalanced-learn==0.14.2 xgboost==3.4.1 ydata-profiling==4.18.4 "setuptools<81"
+    import numpy
+    if numpy.__version__ != "2.3.5":
+        # NumPy ya estaba cargado con la versión anterior: se reinicia el entorno una sola vez.
+        print("Se instaló NumPy 2.3.5. El entorno se reinicia: vuelve a ejecutar todo el notebook.")
+        os.kill(os.getpid(), 9)
 print("Ejecutando en Colab:", IN_COLAB)
 """)
 
